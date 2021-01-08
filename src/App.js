@@ -42,14 +42,14 @@ function App(props){
 
   useEffect(() => {
 
-        // var target = { latitude: 24.21090, longitude: 121.37088 };
-        // Procedural.displayLocation( target );
-        var target = {
-          latitude: 24.20590, longitude: 121.37088,
-          angle: 20, bearing: 0, distance: 1000,
-          animationDuration: 0.5
-        };
-        Procedural.focusOnLocation( target );
+        var target = { latitude: 24.21090, longitude: 121.37088 };
+        Procedural.displayLocation( target );
+        // var target = {
+        //   latitude: 24.20590, longitude: 121.37088,
+        //   angle: 20, bearing: 0, distance: 1000,
+        //   animationDuration: 0.5
+        // };
+        // Procedural.focusOnLocation( target );
 
         Procedural.onUserInteraction = function () {
           console.log(props);
