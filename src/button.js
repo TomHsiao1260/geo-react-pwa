@@ -2,8 +2,14 @@ import React, {Component, useRef, useEffect} from 'react';
 import Procedural from 'procedural-gl';
 import imgMoon from './img/moon.jpg';
 import imgPeak from './img/peak.jpg';
+import data from './data.json';
+
+const arr = [];
 
 function Btn(){
+  data['trkpt'].forEach( i => {
+    arr.push( [i.lon, i.lat] );
+  })
   return (
     <>
       <button className="btn btn-outline-light " type="button" style={{position: 'absolute', margin: '5px'}} onClick={() => Procedural.addOverlay( overlay )}>Mark 1</button>
@@ -12,53 +18,20 @@ function Btn(){
   );
 }
 
-
 const overlay = {
   "type": "FeatureCollection",
-  "features": [ 
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [ 121.56, 25.19 ],
-          [ 121.55, 25.20 ]
-        ]
-      },
-      "type": "Feature",
-      "id": 0,
-      "properties": {
-        "color": "#0000ff"
-      }
+  "features": [ {
+    "geometry": {
+      "type": "LineString",
+      "coordinates": arr
     },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [ 121.56, 25.19 ]
-      },
-      "type": "Feature",
-      "id": 1,
-      "properties": {
-        "borderRadius": 0,
-        "background": "black",
-        "padding": 10,
-        "icon": "bus"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [ 121.55, 25.20 ]
-      },
-      "type": "Feature",
-      "id": 0,
-      "properties": {
-        "color": "white",
-        "padding": 10,
-        "name": "Finish ~",
-        "background": "black"
-      }
+    "type": "Feature",
+    "id": 0,
+    "properties": {
+      "color": "#0000ff"
     }
-  ]
+  }
+]
 }
 
 const overlay_ = {
