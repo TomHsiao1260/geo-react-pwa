@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/geo-react-pwa/static/css/main.39d3f2a5.chunk.css",
-    "main.js": "/geo-react-pwa/static/js/main.1b498a12.chunk.js",
-    "main.js.map": "/geo-react-pwa/static/js/main.1b498a12.chunk.js.map",
-    "runtime-main.js": "/geo-react-pwa/static/js/runtime-main.fd6ffde8.js",
-    "runtime-main.js.map": "/geo-react-pwa/static/js/runtime-main.fd6ffde8.js.map",
-    "static/js/2.664bc8e2.chunk.js": "/geo-react-pwa/static/js/2.664bc8e2.chunk.js",
-    "static/js/2.664bc8e2.chunk.js.map": "/geo-react-pwa/static/js/2.664bc8e2.chunk.js.map",
-    "static/js/3.b5c7970f.chunk.js": "/geo-react-pwa/static/js/3.b5c7970f.chunk.js",
-    "static/js/3.b5c7970f.chunk.js.map": "/geo-react-pwa/static/js/3.b5c7970f.chunk.js.map",
+    "main.js": "/geo-react-pwa/static/js/main.44ae53b8.chunk.js",
+    "main.js.map": "/geo-react-pwa/static/js/main.44ae53b8.chunk.js.map",
+    "runtime-main.js": "/geo-react-pwa/static/js/runtime-main.1c45c9ab.js",
+    "runtime-main.js.map": "/geo-react-pwa/static/js/runtime-main.1c45c9ab.js.map",
+    "static/js/2.187b3d92.chunk.js": "/geo-react-pwa/static/js/2.187b3d92.chunk.js",
+    "static/js/2.187b3d92.chunk.js.map": "/geo-react-pwa/static/js/2.187b3d92.chunk.js.map",
+    "static/js/3.4b9d73a4.chunk.js": "/geo-react-pwa/static/js/3.4b9d73a4.chunk.js",
+    "static/js/3.4b9d73a4.chunk.js.map": "/geo-react-pwa/static/js/3.4b9d73a4.chunk.js.map",
     "index.html": "/geo-react-pwa/index.html",
     "service-worker.js": "/geo-react-pwa/service-worker.js",
     "service-worker.js.map": "/geo-react-pwa/service-worker.js.map",
     "static/css/main.39d3f2a5.chunk.css.map": "/geo-react-pwa/static/css/main.39d3f2a5.chunk.css.map",
-    "static/js/2.664bc8e2.chunk.js.LICENSE.txt": "/geo-react-pwa/static/js/2.664bc8e2.chunk.js.LICENSE.txt",
+    "static/js/2.187b3d92.chunk.js.LICENSE.txt": "/geo-react-pwa/static/js/2.187b3d92.chunk.js.LICENSE.txt",
     "static/media/balloon.f88b492f.png": "/geo-react-pwa/static/media/balloon.f88b492f.png",
     "static/media/logo.6ce24c58.svg": "/geo-react-pwa/static/media/logo.6ce24c58.svg",
     "static/media/App.css": "/geo-react-pwa/static/media/polaroid_frame.6d67b078.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.fd6ffde8.js",
-    "static/js/2.664bc8e2.chunk.js",
+    "static/js/runtime-main.1c45c9ab.js",
+    "static/js/2.187b3d92.chunk.js",
     "static/css/main.39d3f2a5.chunk.css",
-    "static/js/main.1b498a12.chunk.js"
+    "static/js/main.44ae53b8.chunk.js"
   ]
 }
