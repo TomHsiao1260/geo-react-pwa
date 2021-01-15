@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/geo-react-pwa/static/css/main.39d3f2a5.chunk.css",
-    "main.js": "/geo-react-pwa/static/js/main.44ae53b8.chunk.js",
-    "main.js.map": "/geo-react-pwa/static/js/main.44ae53b8.chunk.js.map",
+    "main.js": "/geo-react-pwa/static/js/main.8bd05b86.chunk.js",
+    "main.js.map": "/geo-react-pwa/static/js/main.8bd05b86.chunk.js.map",
     "runtime-main.js": "/geo-react-pwa/static/js/runtime-main.1c45c9ab.js",
     "runtime-main.js.map": "/geo-react-pwa/static/js/runtime-main.1c45c9ab.js.map",
     "static/js/2.187b3d92.chunk.js": "/geo-react-pwa/static/js/2.187b3d92.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.1c45c9ab.js",
     "static/js/2.187b3d92.chunk.js",
     "static/css/main.39d3f2a5.chunk.css",
-    "static/js/main.44ae53b8.chunk.js"
+    "static/js/main.8bd05b86.chunk.js"
   ]
 }
